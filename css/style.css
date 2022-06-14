@@ -14,15 +14,31 @@ img {
 
 .body__servicios{
     background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
 }
 .body__novedades{
     background-image: url("../assets/bg.jpg");
 }
 .body__nosotros{
+    width:100%;
     background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .body__contacto{
     background-image: url("../assets/negocios.jpeg");
+}
+.fuente__titulo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.fuente__titulo2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.fuente__texto{
+    font-family: "Roboto Condensed", sans-serif;
 }
 .navbar-brand img:hover{
     transform: scale(1.1);
@@ -49,6 +65,7 @@ img {
 }
 .noticia img{
     height: 10rem;
+    padding-bottom: 0.3125rem;
 }
 .noticia img:hover{
     transform: scale(1.1);
@@ -86,19 +103,20 @@ img {
     
 }
 .txt__institucional{
-    padding-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
     font-size: 1.1rem;
     color: white;
 }
 .txt__institucional:hover{
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
+    background-color: rgba(40,40,40,0.7);
     transition: ease-in-out 0.1s;
 }
 .videoPresentacion {
     padding:4rem 1.25rem 1rem 1.25rem
 }
 .site-footer{
-    height:110px;
+    height:3rem;
 }
 .iconos-redes a{
     text-decoration:none;
