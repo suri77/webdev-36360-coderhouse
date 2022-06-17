@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red !important;*/
+}
+/*crear un mapa con las vistas*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: silver;
+}
+/*usar el mapa para un each que distribuya las props en los body_ */
+.body__servicios{
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+}
+.body__novedades{
+    background-image: url("../assets/bg.jpg");
+}
+.body__nosotros{
+    width:100%;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body__contacto{
+    background-image: url("../assets/negocios.jpeg");
+}
+img {
+    border-radius: 5%;
+}

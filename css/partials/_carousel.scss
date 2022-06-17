@@ -1,0 +1,10 @@
+.carousel{
+    &-inner img{
+        max-height: 500px;
+    }
+    &-caption{
+        font-size: 1rem;
+        top: 40%;
+        bottom:auto;
+    }
+}

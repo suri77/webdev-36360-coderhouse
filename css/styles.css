@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  /*outline: 1px solid red !important;*/ }
+
+/*crear un mapa con las vistas*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: silver; }
+
+/*usar el mapa para un each que distribuya las props en los body_ */
+.body__servicios {
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat; }
+
+.body__novedades {
+  background-image: url("../assets/bg.jpg"); }
+
+.body__nosotros {
+  width: 100%;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body__contacto {
+  background-image: url("../assets/negocios.jpeg"); }
+
+img {
+  border-radius: 5%; }
+
+.fuente__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+.fuente__titulo2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; }
+
+.fuente__texto {
+  font-family: "Roboto Condensed", sans-serif; }
+
+.carousel-inner img {
+  max-height: 500px; }
+
+.carousel-caption {
+  font-size: 1rem;
+  top: 40%;
+  bottom: auto; }
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.nav-item a {
+  text-decoration: none;
+  margin: 0.625rem;
+  font-size: 1.25rem; }
+
+.nav-link:hover {
+  color: aquamarine;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s; }
+
+.noticia img {
+  height: 10rem;
+  padding-bottom: 0.3125rem; }
+
+.noticia img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.noticia p {
+  color: white; }
+
+.cont__servicios {
+  padding: 1rem;
+  margin: 1rem;
+  color: white; }
+
+.servicio {
+  padding-top: 1rem;
+  border-radius: 2%;
+  background-color: rgba(40, 40, 40, 0.7); }
+
+.servicio img {
+  padding: 0.3125rem; }
+
+.servicio img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.formulario {
+  background: #e9e8f4 !important;
+  background: linear-gradient(0deg, rgba(233, 232, 244, 0.7) 0%, rgba(125, 125, 142, 0.7) 58%, rgba(40, 40, 40, 0.7) 82%) !important;
+  color: white; }
+
+.btn:hover {
+  background: aqua;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.txt__institucional {
+  margin-bottom: 3.5rem;
+  font-size: 1.1rem;
+  color: white; }
+
+.txt__institucional:hover {
+  /*transform: scale(1.1);*/
+  background-color: rgba(40, 40, 40, 0.7);
+  transition: ease-in-out 0.1s; }
+
+.videoPresentacion {
+  padding: 4rem 1.25rem 1rem 1.25rem; }
+
+.site-footer {
+  height: 3rem; }
+
+.iconos-redes a {
+  text-decoration: none;
+  color: white;
+  margin: 0.625rem;
+  font-size: 1.5625rem; }
+
+.iconos-redes a:hover {
+  color: aquamarine;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s; }
