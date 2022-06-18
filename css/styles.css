@@ -34,6 +34,30 @@ body {
 img {
   border-radius: 5%; }
 
+.formulario {
+  background: #e9e8f4 !important;
+  background: linear-gradient(0deg, rgba(233, 232, 244, 0.7) 0%, rgba(125, 125, 142, 0.7) 58%, rgba(40, 40, 40, 0.7) 82%) !important;
+  color: white; }
+
+/*input:focus {
+    outline: 3px solid gold;
+}*/
+.btn:hover {
+  background: aqua;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.txt__institucional {
+  margin-bottom: 3.5rem;
+  font-size: 1.1rem;
+  color: white; }
+  .txt__institucional :hover {
+    background-color: rgba(40, 40, 40, 0.7);
+    transition: ease-in-out 0.1s; }
+
+.videoPresentacion {
+  padding-top: 4rem; }
+
 .fuente__titulo {
   font-family: "Montserrat", sans-serif;
   font-weight: 700; }
@@ -53,16 +77,30 @@ img {
   top: 40%;
   bottom: auto; }
 
-.navbar-brand img:hover {
-  transform: scale(1.1);
-  transition: ease-in-out 0.1; }
-
 .nav-item a {
   text-decoration: none;
   margin: 0.625rem;
   font-size: 1.25rem; }
 
 .nav-link:hover {
+  color: aquamarine;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s; }
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }
+
+.site-footer {
+  height: 3rem; }
+
+.iconos-redes a {
+  text-decoration: none;
+  color: white;
+  margin: 0.625rem;
+  font-size: 1.5rem; }
+
+.iconos-redes a:hover {
   color: aquamarine;
   transform: scale(1.1);
   transition: ease-in-out 0.1s; }
@@ -87,47 +125,8 @@ img {
   padding-top: 1rem;
   border-radius: 2%;
   background-color: rgba(40, 40, 40, 0.7); }
-
-.servicio img {
-  padding: 0.3125rem; }
-
-.servicio img:hover {
-  transform: scale(1.1);
-  transition: ease-in-out 0.1; }
-
-.formulario {
-  background: #e9e8f4 !important;
-  background: linear-gradient(0deg, rgba(233, 232, 244, 0.7) 0%, rgba(125, 125, 142, 0.7) 58%, rgba(40, 40, 40, 0.7) 82%) !important;
-  color: white; }
-
-.btn:hover {
-  background: aqua;
-  transform: scale(1.1);
-  transition: ease-in-out 0.1; }
-
-.txt__institucional {
-  margin-bottom: 3.5rem;
-  font-size: 1.1rem;
-  color: white; }
-
-.txt__institucional:hover {
-  /*transform: scale(1.1);*/
-  background-color: rgba(40, 40, 40, 0.7);
-  transition: ease-in-out 0.1s; }
-
-.videoPresentacion {
-  padding: 4rem 1.25rem 1rem 1.25rem; }
-
-.site-footer {
-  height: 3rem; }
-
-.iconos-redes a {
-  text-decoration: none;
-  color: white;
-  margin: 0.625rem;
-  font-size: 1.5625rem; }
-
-.iconos-redes a:hover {
-  color: aquamarine;
-  transform: scale(1.1);
-  transition: ease-in-out 0.1s; }
+  .servicio img {
+    padding: 0.3125rem; }
+  .servicio img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.1; }

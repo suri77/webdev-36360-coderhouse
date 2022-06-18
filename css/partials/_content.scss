@@ -1,0 +1,30 @@
+.noticia {
+    img{
+        height: 10rem;
+        padding-bottom: 0.3125rem;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: ease-in-out 0.1;
+    }
+    p{
+        color:$texto-blanco;
+    }
+} 
+.cont__servicios{
+    padding: 1rem;
+    margin: 1rem;
+    color:white;
+}
+.servicio{
+    padding-top: 1rem;
+    border-radius: 2%;
+    background-color: rgba(40,40,40,0.7);
+    img{
+        padding: 0.3125rem;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: ease-in-out 0.1;
+    }
+}

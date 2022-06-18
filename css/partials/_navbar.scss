@@ -1,0 +1,33 @@
+
+.nav{
+    &-item a{
+        text-decoration: none;
+        margin: 0.625rem;
+        font-size: 1.25rem;
+    }
+    &-link:hover{
+        color: aquamarine;
+        transform: scale(1.1);
+        transition: ease-in-out 0.1s;
+    }
+}
+.navbar-brand img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.1;
+}
+.site-footer{
+    height:3rem;
+}
+.iconos-redes{
+    a{
+        text-decoration:none;
+        color: $texto-blanco;
+        margin: 0.625rem;
+        font-size: 1.5rem;
+    }
+    a:hover{
+        color: $aqua;
+        transform: scale(1.1);
+        transition: ease-in-out 0.1s;
+    }
+}
