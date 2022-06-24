@@ -4,8 +4,7 @@
         padding-bottom: 0.3125rem;
     }
     img:hover{
-        transform: scale(1.1);
-        transition: ease-in-out 0.1;
+        @include hover__Effect
     }
     p{
         color:$texto-blanco;
@@ -14,7 +13,7 @@
 .cont__servicios{
     padding: 1rem;
     margin: 1rem;
-    color:white;
+    color:$texto-blanco;
 }
 .servicio{
     padding-top: 1rem;
@@ -24,7 +23,6 @@
         padding: 0.3125rem;
     }
     img:hover{
-        transform: scale(1.1);
-        transition: ease-in-out 0.1;
+        @include hover__Effect
     }
 }

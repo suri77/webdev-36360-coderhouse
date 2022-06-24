@@ -8,52 +8,45 @@
   padding: 0;
   /*outline: 1px solid red !important;*/ }
 
-/*crear un mapa con las vistas*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: silver; }
 
-/*usar el mapa para un each que distribuya las props en los body_ */
 .body__servicios {
   background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat; }
 
 .body__novedades {
-  background-image: url("../assets/bg.jpg"); }
+  background-image: url("../assets/webp/patron_rombo.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .body__nosotros {
-  width: 100%;
   background-image: url("../assets/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .body__contacto {
-  background-image: url("../assets/negocios.jpeg"); }
+  background-image: url("../assets/negocios.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 img {
   border-radius: 5%; }
-
-.formulario {
-  background: #e9e8f4 !important;
-  background: linear-gradient(0deg, rgba(233, 232, 244, 0.7) 0%, rgba(125, 125, 142, 0.7) 58%, rgba(40, 40, 40, 0.7) 82%) !important;
-  color: white; }
-
-/*input:focus {
-    outline: 3px solid gold;
-}*/
-.btn:hover {
-  background: aqua;
-  transform: scale(1.1);
-  transition: ease-in-out 0.1; }
 
 .txt__institucional {
   margin-bottom: 3.5rem;
   font-size: 1.1rem;
   color: white; }
   .txt__institucional :hover {
-    background-color: rgba(40, 40, 40, 0.7);
-    transition: ease-in-out 0.1s; }
+    transform: scale(1.1);
+    transition: ease-in-out 0.1; }
 
 .videoPresentacion {
   padding-top: 4rem; }
@@ -69,8 +62,12 @@ img {
 .fuente__texto {
   font-family: "Roboto Condensed", sans-serif; }
 
+.carousel-JS {
+  max-width: 100%;
+  height: auto; }
+
 .carousel-inner img {
-  max-height: 500px; }
+  max-height: 31.25rem; }
 
 .carousel-caption {
   font-size: 1rem;
@@ -85,7 +82,7 @@ img {
 .nav-link:hover {
   color: aquamarine;
   transform: scale(1.1);
-  transition: ease-in-out 0.1s; }
+  transition: ease-in-out 0.1; }
 
 .navbar-brand img:hover {
   transform: scale(1.1);
@@ -103,7 +100,7 @@ img {
 .iconos-redes a:hover {
   color: aquamarine;
   transform: scale(1.1);
-  transition: ease-in-out 0.1s; }
+  transition: ease-in-out 0.1; }
 
 .noticia img {
   height: 10rem;
@@ -130,3 +127,15 @@ img {
   .servicio img:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.1; }
+
+.formulario {
+  margin-top: 1rem;
+  background: #e9e8f4 !important;
+  background: linear-gradient(0deg, rgba(233, 232, 244, 0.7) 0%, rgba(125, 125, 142, 0.7) 58%, rgba(40, 40, 40, 0.7) 82%) !important;
+  border-radius: 5%;
+  color: white; }
+
+.btn:hover {
+  background: aqua;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1; }

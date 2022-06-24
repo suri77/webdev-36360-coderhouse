@@ -1,6 +1,11 @@
+
 .carousel{
+    &-JS{
+        max-width: 100%;
+        height:auto;  
+    }
     &-inner img{
-        max-height: 500px;
+        max-height: 31.25rem;
     }
     &-caption{
         font-size: 1rem;

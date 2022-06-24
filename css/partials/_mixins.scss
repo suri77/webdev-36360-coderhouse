@@ -1,0 +1,9 @@
+@mixin background__Props {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@mixin hover__Effect {
+    transform: scale(1.1);
+    transition: ease-in-out 0.1;
+}
