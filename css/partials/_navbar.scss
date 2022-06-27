@@ -6,7 +6,7 @@
         font-size: 1.25rem;
     }
     &-link:hover{
-        color: aquamarine;
+        color: $aqua;
         @include hover__Effect
     }
 }
@@ -24,7 +24,7 @@
         font-size: 1.5rem;
     }
     a:hover{
-        color: $aqua;
+        color: $sand__medium;
     @include hover__Effect;
     }
 }

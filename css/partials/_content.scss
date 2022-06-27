@@ -1,7 +1,12 @@
+.contNovedades{
+    margin-bottom: 2.5rem;
+    margin-right:0.3125rem !important;
+}
 .noticia {
     img{
         height: 10rem;
-        padding-bottom: 0.3125rem;
+        padding: 0.3125rem;
+        
     }
     img:hover{
         @include hover__Effect
@@ -11,8 +16,8 @@
     }
 } 
 .cont__servicios{
-    padding: 1rem;
-    margin: 1rem;
+    padding-bottom: 1.5rem;
+    margin: 0.5rem;
     color:$texto-blanco;
 }
 .servicio{
