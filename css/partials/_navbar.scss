@@ -1,20 +1,32 @@
 
 .nav{
     &-item a{
+        
         text-decoration: none;
-        margin: 0.625rem;
-        font-size: 1.25rem;
+        margin: 5px;       
+        font-size: 1.1rem;
+    }
+    &-link{
+        padding: 0 !important;
     }
     &-link:hover{
-        color: $aqua;
-        @include hover__Effect
+        text-decoration: underline !important;
     }
 }
-.navbar-brand img:hover{
-    @include hover__Effect
+.navbar{
+    background-color: transparent;
+    
+    z-index: 2;
+    &-brand img{
+        height: 20px;
+    }
+    &-brand img:hover{
+        @include hover__Effect
+}
 }
 .site-footer{
     height:3rem;
+    background-color: $dark__50;
 }
 .iconos-redes{
     a{
